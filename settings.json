@@ -8,7 +8,7 @@
   "server": {
     "ip": "isaacsucks123.aternos.me",
     "port": 32717,
-    "version": "",
+    "version": "false",
     "try-creative": false
   },
   "position": {
