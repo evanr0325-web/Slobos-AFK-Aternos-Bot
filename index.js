@@ -2076,4 +2076,9 @@ addLog(
 );
 addLog("=".repeat(50));
 
-createBot();
+bot.on("end", () => {
+  addLog("Disconnected. Reconnecting in 10 seconds...");
+  setTimeout(() => {
+    createBot();
+  }, 10000);
+});
